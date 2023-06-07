@@ -1,0 +1,72 @@
+body{
+    background-color: blue;
+    margin: 0;
+    height: 100vh;
+}
+
+#Todo_Place{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    border: 7px solid rgb(255, 255, 255);
+    width: 600px;
+    min-height:100px;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+#Add_New_Todo{
+    margin:30px 10px;
+    margin-bottom: 60px;
+}
+
+#input_place{
+    text-align: center;
+    width:440px;
+    height: 40px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    font-size:2em;
+    
+}
+
+#button_add{
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 3px;
+    color: white;
+    margin-left: 20px;
+    width: 100px;
+    height:40px;
+    font-size:2em
+}
+
+.tasks{
+    display:flex;
+    align-items: center;
+    background-color: rgb(177, 255, 245);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    height: 60px;
+    
+}
+
+.task{
+    margin-left:20px;
+    font-size: 25px;
+}
+
+.remove_task_png{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right:0;
+    margin:20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: blue;
+
+}
