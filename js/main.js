@@ -3,8 +3,11 @@
 function Add_new_task(){
     var input = document.getElementById("input_place");
     var value = input.value;
-    if (value.length == 0) return alert("The field is empty");
+    value = value.trim();
+    value = value.replace(/\s+$/g, "");
     input.value = "";
+    if (value.length == 0) return alert("The field is empty");
+    
 
     var Task_Desc = document.createElement("span");
     Task_Desc.className = "task";
